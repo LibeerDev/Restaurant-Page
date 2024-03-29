@@ -1,4 +1,4 @@
-import './index.css';
+import './output.css';
 import { homepage } from './homepage.js'
 import { menu } from './menu.js'
 import { about } from './about.js'

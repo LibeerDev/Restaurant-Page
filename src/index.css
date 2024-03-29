@@ -1,36 +1,17 @@
-body {
-    display: flex;
-    height: 100vh;
-    background-color: rgb(255, 226, 121);
-    flex-direction: column;
-}
-
-header {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
-
-#content {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    padding: 10px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .restaurant-image {
-    background: url('./imgs/restaurant.jpg');
-    background-size: cover;
+    background-image: url('./imgs/restaurant.jpg');
     width: 500px;
     height: 500px;
+    background-size: cover;
 }
 
-.hero-text {
-    font-size: large;
+
+.grid img {
+    width: 100px !important;
+    height: 100px !important;
 }
+
